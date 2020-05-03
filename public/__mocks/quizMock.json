@@ -1,111 +1,6 @@
 [
   {
     "question": {
-      "pk_questionid": "24",
-      "fk_SchoolId": "",
-      "fk_SubjectId": "",
-      "question_type": "",
-      "description": "",
-      "createdby": "",
-      "lastupdatedby": "",
-      "lastupdateed": "",
-      "status": "",
-      "questionName": "How do you handle error in JSP?"
-    },
-    "answers": []
-  },
-  {
-    "question": {
-      "pk_questionid": "26",
-      "fk_SchoolId": "",
-      "fk_SubjectId": "",
-      "question_type": "",
-      "description": "",
-      "createdby": "",
-      "lastupdatedby": "",
-      "lastupdateed": "",
-      "status": "",
-      "questionName": "How many implicit objects are in JSP"
-    },
-    "answers": []
-  },
-  {
-    "question": {
-      "pk_questionid": "27",
-      "fk_SchoolId": "",
-      "fk_SubjectId": "",
-      "question_type": "",
-      "description": "",
-      "createdby": "",
-      "lastupdatedby": "",
-      "lastupdateed": "",
-      "status": "",
-      "questionName": "How do you handle error in JSP?"
-    },
-    "answers": []
-  },
-  {
-    "question": {
-      "pk_questionid": "81",
-      "fk_SchoolId": "",
-      "fk_SubjectId": "",
-      "question_type": "",
-      "description": "",
-      "createdby": "",
-      "lastupdatedby": "",
-      "lastupdateed": "",
-      "status": "",
-      "questionName": "How to declare thread in JSP"
-    },
-    "answers": []
-  },
-  {
-    "question": {
-      "pk_questionid": "82",
-      "fk_SchoolId": "",
-      "fk_SubjectId": "",
-      "question_type": "",
-      "description": "",
-      "createdby": "",
-      "lastupdatedby": "",
-      "lastupdateed": "",
-      "status": "",
-      "questionName": "What is the difference between static include and "
-    },
-    "answers": []
-  },
-  {
-    "question": {
-      "pk_questionid": "83",
-      "fk_SchoolId": "",
-      "fk_SubjectId": "",
-      "question_type": "",
-      "description": "",
-      "createdby": "",
-      "lastupdatedby": "",
-      "lastupdateed": "",
-      "status": "",
-      "questionName": "What is the difference between response.sendRedire"
-    },
-    "answers": []
-  },
-  {
-    "question": {
-      "pk_questionid": "133",
-      "fk_SchoolId": "",
-      "fk_SubjectId": "",
-      "question_type": "",
-      "description": "",
-      "createdby": "",
-      "lastupdatedby": "",
-      "lastupdateed": "",
-      "status": "",
-      "questionName": "What is HashCode?"
-    },
-    "answers": []
-  },
-  {
-    "question": {
       "pk_questionid": "155",
       "fk_SchoolId": "",
       "fk_SubjectId": "",
@@ -119,15 +14,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
-        "fk_questionid": "155",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "தமிழ்நாடு"
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "545",
         "fk_questionid": "155",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -135,7 +22,15 @@
         "answer": "ஆந்திரப்பிரதேசம்"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "542",
+        "fk_questionid": "155",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "தமிழ்நாடு"
+      },
+      {
+        "pk_answerid": "544",
         "fk_questionid": "155",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -159,7 +54,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "546",
         "fk_questionid": "156",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -167,20 +62,20 @@
         "answer": "தொலைக்காட்சி"
       },
       {
-        "pk_answerid": null,
-        "fk_questionid": "156",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "தொழிற்சாலை"
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "548",
         "fk_questionid": "156",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
         "answer": "சுற்றுலா"
+      },
+      {
+        "pk_answerid": "547",
+        "fk_questionid": "156",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "தொழிற்சாலை"
       }
     ]
   },
@@ -199,7 +94,15 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "551",
+        "fk_questionid": "157",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "தொழிற்சாலை"
+      },
+      {
+        "pk_answerid": "553",
         "fk_questionid": "157",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -207,20 +110,12 @@
         "answer": "வேளாண்மை"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "550",
         "fk_questionid": "157",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
         "answer": "தொலைக்காட்சி"
-      },
-      {
-        "pk_answerid": null,
-        "fk_questionid": "157",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "தொழிற்சாலை"
       }
     ]
   },
@@ -239,7 +134,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "557",
         "fk_questionid": "158",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -247,7 +142,7 @@
         "answer": "வேளாண்மை"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "554",
         "fk_questionid": "158",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -255,12 +150,12 @@
         "answer": "தொலைக்காட்சி"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "556",
         "fk_questionid": "158",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
-        "answer": "தொழிற்சாலை"
+        "answer": "சுற்றுலா"
       }
     ]
   },
@@ -279,7 +174,15 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "558",
+        "fk_questionid": "159",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "நிக்கோட்டின்"
+      },
+      {
+        "pk_answerid": "560",
         "fk_questionid": "159",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -287,20 +190,12 @@
         "answer": "ஆண்டி க்நோக்"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "559",
         "fk_questionid": "159",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
-        "answer": "அகாரிஸ்"
-      },
-      {
-        "pk_answerid": null,
-        "fk_questionid": "159",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "Y",
-        "answer": "நிக்கோட்டின்"
+        "answer": "ஆண்டி க்நோக்"
       }
     ]
   },
@@ -319,15 +214,15 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "563",
         "fk_questionid": "160",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
-        "answer": "ஆண்டி க்நோக்"
+        "answer": "வில்லியம் மோர்டன்"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "565",
         "fk_questionid": "160",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -335,7 +230,7 @@
         "answer": "கோல்பே"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "562",
         "fk_questionid": "160",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -359,15 +254,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
-        "fk_questionid": "161",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "1.074 X 107 m-1"
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "569",
         "fk_questionid": "161",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -375,12 +262,20 @@
         "answer": "1.084 X 107 m-1"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "566",
         "fk_questionid": "161",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "Y",
         "answer": "1.094 X 107 m-1 "
+      },
+      {
+        "pk_answerid": "568",
+        "fk_questionid": "161",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "1.074 X 107 m-1"
       }
     ]
   },
@@ -399,7 +294,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "571",
         "fk_questionid": "162",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -407,7 +302,7 @@
         "answer": "5"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "573",
         "fk_questionid": "162",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -415,12 +310,12 @@
         "answer": "5"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "570",
         "fk_questionid": "162",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "5"
+        "correct_answer": "Y",
+        "answer": "3"
       }
     ]
   },
@@ -439,7 +334,15 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "577",
+        "fk_questionid": "163",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Automatic Teller Machine"
+      },
+      {
+        "pk_answerid": "574",
         "fk_questionid": "163",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -447,15 +350,7 @@
         "answer": " Automated Teller Machine"
       },
       {
-        "pk_answerid": null,
-        "fk_questionid": "163",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "Automatic Telling Machine"
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "576",
         "fk_questionid": "163",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -479,7 +374,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "578",
         "fk_questionid": "164",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -487,20 +382,20 @@
         "answer": "பண்டமாற்று"
       },
       {
-        "pk_answerid": null,
-        "fk_questionid": "164",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "இறக்குமதி"
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "580",
         "fk_questionid": "164",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
         "answer": "வியாபாரம்"
+      },
+      {
+        "pk_answerid": "579",
+        "fk_questionid": "164",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "இறக்குமதி"
       }
     ]
   },
@@ -519,7 +414,15 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "583",
+        "fk_questionid": "165",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "முதல் ரேங்க்"
+      },
+      {
+        "pk_answerid": "585",
         "fk_questionid": "165",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -527,20 +430,12 @@
         "answer": " முதல் வகுப்பு"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "582",
         "fk_questionid": "165",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "Y",
         "answer": "முதல் தரம்"
-      },
-      {
-        "pk_answerid": null,
-        "fk_questionid": "165",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "முதல் ரேங்க்"
       }
     ]
   },
@@ -559,7 +454,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "589",
         "fk_questionid": "166",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -567,7 +462,7 @@
         "answer": "மக்களவை"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "586",
         "fk_questionid": "166",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -575,12 +470,12 @@
         "answer": "மாநிலங்களவை"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "588",
         "fk_questionid": "166",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
-        "answer": "நாடாளுமன்றம்"
+        "answer": "பாராளுமன்றம்"
       }
     ]
   },
@@ -599,7 +494,15 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "590",
+        "fk_questionid": "167",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "a2 − 2ab + b2"
+      },
+      {
+        "pk_answerid": "592",
         "fk_questionid": "167",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -607,20 +510,12 @@
         "answer": "a2  + 2ab -  b2"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "591",
         "fk_questionid": "167",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
         "answer": "a2  + 2ab + b2"
-      },
-      {
-        "pk_answerid": null,
-        "fk_questionid": "167",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "Y",
-        "answer": "a2 − 2ab + b2"
       }
     ]
   },
@@ -639,15 +534,15 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "603",
         "fk_questionid": "170",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "உணவு"
+        "correct_answer": "Y",
+        "answer": "விதைபரவுதல்"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "605",
         "fk_questionid": "170",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -655,7 +550,7 @@
         "answer": "காற்று"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "602",
         "fk_questionid": "170",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -694,15 +589,15 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "660",
         "fk_questionid": "184",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
-        "answer": "speed"
+        "answer": "density"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "659",
         "fk_questionid": "184",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -710,12 +605,12 @@
         "answer": "volume"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "661",
         "fk_questionid": "184",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "density"
+        "correct_answer": "Y",
+        "answer": "mass"
       }
     ]
   },
@@ -734,7 +629,15 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "665",
+        "fk_questionid": "185",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Length"
+      },
+      {
+        "pk_answerid": "662",
         "fk_questionid": "185",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -742,15 +645,7 @@
         "answer": "temperature"
       },
       {
-        "pk_answerid": null,
-        "fk_questionid": "185",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "Time"
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "664",
         "fk_questionid": "185",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -774,15 +669,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
-        "fk_questionid": "186",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "kg/litres"
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "666",
         "fk_questionid": "186",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -790,7 +677,15 @@
         "answer": "g/cc"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "668",
+        "fk_questionid": "186",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "kgsub3"
+      },
+      {
+        "pk_answerid": "667",
         "fk_questionid": "186",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -814,7 +709,15 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "671",
+        "fk_questionid": "187",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "sinks in kerosene"
+      },
+      {
+        "pk_answerid": "673",
         "fk_questionid": "187",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -822,20 +725,12 @@
         "answer": "cannot say"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "670",
         "fk_questionid": "187",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
         "answer": "sinks in water"
-      },
-      {
-        "pk_answerid": null,
-        "fk_questionid": "187",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "Y",
-        "answer": "sinks in kerosene"
       }
     ]
   },
@@ -854,15 +749,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
-        "fk_questionid": "188",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "4:1"
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "677",
         "fk_questionid": "188",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -870,12 +757,20 @@
         "answer": "1:4"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "674",
         "fk_questionid": "188",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "Y",
         "answer": "1:2"
+      },
+      {
+        "pk_answerid": "676",
+        "fk_questionid": "188",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "4:1"
       }
     ]
   },
@@ -894,7 +789,15 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "682",
+        "fk_questionid": "190",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "m "
+      },
+      {
+        "pk_answerid": "684",
         "fk_questionid": "190",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -902,20 +805,12 @@
         "answer": "km/s"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "683",
         "fk_questionid": "190",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "km/h"
-      },
-      {
-        "pk_answerid": null,
-        "fk_questionid": "190",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "m "
+        "correct_answer": "Y",
+        "answer": "m/s"
       }
     ]
   },
@@ -934,7 +829,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "687",
         "fk_questionid": "191",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -942,20 +837,20 @@
         "answer": "Not change"
       },
       {
-        "pk_answerid": null,
-        "fk_questionid": "191",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "Decrease"
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "689",
         "fk_questionid": "191",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
         "answer": "Increase and decrease"
+      },
+      {
+        "pk_answerid": "686",
+        "fk_questionid": "191",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "Increase"
       }
     ]
   },
@@ -974,28 +869,28 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
-        "fk_questionid": "192",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "Uniform speed"
-      },
-      {
-        "pk_answerid": null,
-        "fk_questionid": "192",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "Deceleration"
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "693",
         "fk_questionid": "192",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "Y",
         "answer": "Variable speed"
+      },
+      {
+        "pk_answerid": "690",
+        "fk_questionid": "192",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Uniform velocity"
+      },
+      {
+        "pk_answerid": "692",
+        "fk_questionid": "192",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Deceleration"
       }
     ]
   },
@@ -1014,15 +909,15 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "696",
         "fk_questionid": "193",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "Zero "
+        "correct_answer": "Y",
+        "answer": "2r"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "695",
         "fk_questionid": "193",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1030,12 +925,12 @@
         "answer": "r "
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "697",
         "fk_questionid": "193",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
-        "correct_answer": "Y",
-        "answer": "2r"
+        "correct_answer": "N",
+        "answer": "r/2"
       }
     ]
   },
@@ -1054,7 +949,15 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "701",
+        "fk_questionid": "194",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Decreasing the area of its base"
+      },
+      {
+        "pk_answerid": "698",
         "fk_questionid": "194",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1062,15 +965,7 @@
         "answer": "Raising the position of its centre of mass"
       },
       {
-        "pk_answerid": null,
-        "fk_questionid": "194",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "Lowering the position of its centre of mass"
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "700",
         "fk_questionid": "194",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1094,15 +989,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
-        "fk_questionid": "195",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "Decreasing the area of its base"
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "702",
         "fk_questionid": "195",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1110,7 +997,15 @@
         "answer": "Raising the position of its centre of mass"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "704",
+        "fk_questionid": "195",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Increasing the area of its base"
+      },
+      {
+        "pk_answerid": "703",
         "fk_questionid": "195",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1134,12 +1029,12 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "706",
         "fk_questionid": "196",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
-        "correct_answer": "Y",
-        "answer": "Wind"
+        "correct_answer": "N",
+        "answer": "Insect"
       }
     ]
   },
@@ -1158,7 +1053,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "711",
         "fk_questionid": "197",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1182,7 +1077,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "714",
         "fk_questionid": "198",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1206,12 +1101,12 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "718",
         "fk_questionid": "199",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
-        "correct_answer": "Y",
-        "answer": "Fresh"
+        "correct_answer": "N",
+        "answer": "Marine"
       }
     ]
   },
@@ -1230,12 +1125,12 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "723",
         "fk_questionid": "200",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
-        "correct_answer": "Y",
-        "answer": "Male"
+        "correct_answer": "N",
+        "answer": "Female"
       }
     ]
   },
@@ -1254,7 +1149,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "733",
         "fk_questionid": "202",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1262,7 +1157,7 @@
         "answer": "பறவைகள் மட்டும்"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "730",
         "fk_questionid": "202",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1270,12 +1165,12 @@
         "answer": "மனிதர் மட்டும் "
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "732",
         "fk_questionid": "202",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
-        "answer": "நம்மைச் சுற்றியுள்ள அனைத்தும் "
+        "answer": "விலங்குகள் மட்டும்"
       }
     ]
   },
@@ -1294,15 +1189,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
-        "fk_questionid": "203",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "இயற்பியல் சுற்றுச் சூழல் உயிரியல் சுற்றுச் சூழல் வேதியியல் சுற்றுச் சூழல்"
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "734",
         "fk_questionid": "203",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1310,7 +1197,15 @@
         "answer": "இயற்பியல் சுற்றுச் சூழல் உயிரியல் சுற்றுச் சூழல்"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "736",
+        "fk_questionid": "203",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": " உயிரியல் சுற்றுச் சூழல் வேதியியல் சுற்றுச் சூழல்"
+      },
+      {
+        "pk_answerid": "735",
         "fk_questionid": "203",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1334,7 +1229,15 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "739",
+        "fk_questionid": "204",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": " நீர்   மட்டும் "
+      },
+      {
+        "pk_answerid": "741",
         "fk_questionid": "204",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1342,20 +1245,12 @@
         "answer": "நிலம், நீர் ,காற்று"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "738",
         "fk_questionid": "204",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
         "answer": "நிலம்  மட்டும் "
-      },
-      {
-        "pk_answerid": null,
-        "fk_questionid": "204",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": " நீர்   மட்டும் "
       }
     ]
   },
@@ -1374,15 +1269,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
-        "fk_questionid": "205",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "தாவரங்கள் விலங்குகள் வளர்க்கும் முறை "
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "745",
         "fk_questionid": "205",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1390,12 +1277,20 @@
         "answer": "மேற்கண்ட  மூன்றும் தவறு "
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "744",
         "fk_questionid": "205",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
-        "answer": "தாவரங்கள்  வளர்க்கும் முறை"
+        "answer": "தாவரங்கள் விலங்குகள் வளர்க்கும் முறை "
+      },
+      {
+        "pk_answerid": "743",
+        "fk_questionid": "205",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": " விலங்குகள் வளர்க்கும் முறை"
       }
     ]
   },
@@ -1414,15 +1309,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
-        "fk_questionid": "206",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "27"
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "748",
         "fk_questionid": "206",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1430,7 +1317,15 @@
         "answer": "30"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "747",
+        "fk_questionid": "206",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "27"
+      },
+      {
+        "pk_answerid": "749",
         "fk_questionid": "206",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1454,28 +1349,28 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
-        "fk_questionid": "207",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "டாக்டர்சுவாமிநாதன் "
-      },
-      {
-        "pk_answerid": null,
-        "fk_questionid": "207",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "டாக்டர் அப்துல் கலாம்  டாக்டர் "
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "753",
         "fk_questionid": "207",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
         "answer": "டாக்டர் மயில்ச்சாமி அண்ணாத்துரை "
+      },
+      {
+        "pk_answerid": "750",
+        "fk_questionid": "207",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "டாக்டர் வர்கீஸ்  குரியன் "
+      },
+      {
+        "pk_answerid": "752",
+        "fk_questionid": "207",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "டாக்டர் அப்துல் கலாம்  டாக்டர் "
       }
     ]
   },
@@ -1494,7 +1389,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "754",
         "fk_questionid": "208",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1502,20 +1397,20 @@
         "answer": " குஜராத்,பஞ்சாப், அரியானா "
       },
       {
-        "pk_answerid": null,
-        "fk_questionid": "208",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "இராஜஸ்தான்,  பஞ்சாப், அரியானா "
-      },
-      {
-        "pk_answerid": null,
+        "pk_answerid": "756",
         "fk_questionid": "208",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
         "answer": " பஞ்சாப், அரியானா "
+      },
+      {
+        "pk_answerid": "755",
+        "fk_questionid": "208",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "இராஜஸ்தான்,  பஞ்சாப், அரியானா "
       }
     ]
   },
@@ -1534,7 +1429,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "759",
         "fk_questionid": "209",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1542,12 +1437,12 @@
         "answer": "Kalhan"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "758",
         "fk_questionid": "209",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "Mohammed jayasi"
+        "correct_answer": "Y",
+        "answer": "Firdausi"
       }
     ]
   },
@@ -1566,7 +1461,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "763",
         "fk_questionid": "210",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1574,12 +1469,12 @@
         "answer": "476c.e"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "762",
         "fk_questionid": "210",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
-        "correct_answer": "Y",
-        "answer": "647c.e"
+        "correct_answer": "N",
+        "answer": "746.c.e"
       }
     ]
   },
@@ -1598,7 +1493,7 @@
     },
     "answers": [
       {
-        "pk_answerid": null,
+        "pk_answerid": "767",
         "fk_questionid": "211",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
@@ -1606,92 +1501,12 @@
         "answer": "South India"
       },
       {
-        "pk_answerid": null,
+        "pk_answerid": "766",
         "fk_questionid": "211",
         "fk_SchoolId": null,
         "fk_SubjectID": null,
         "correct_answer": "N",
-        "answer": "West India"
-      }
-    ]
-  },
-  {
-    "question": {
-      "pk_questionid": "212",
-      "fk_SchoolId": "",
-      "fk_SubjectId": "",
-      "question_type": "",
-      "description": "",
-      "createdby": "",
-      "lastupdatedby": "",
-      "lastupdateed": "",
-      "status": "",
-      "questionName": "how many alphabets are vowels?"
-    },
-    "answers": [
-      {
-        "pk_answerid": null,
-        "fk_questionid": "212",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "Y",
-        "answer": "5"
-      },
-      {
-        "pk_answerid": null,
-        "fk_questionid": "212",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "3"
-      },
-      {
-        "pk_answerid": null,
-        "fk_questionid": "212",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "2"
-      }
-    ]
-  },
-  {
-    "question": {
-      "pk_questionid": "213",
-      "fk_SchoolId": "",
-      "fk_SubjectId": "",
-      "question_type": "",
-      "description": "",
-      "createdby": "",
-      "lastupdatedby": "",
-      "lastupdateed": "",
-      "status": "",
-      "questionName": "who has written thirukkural?"
-    },
-    "answers": [
-      {
-        "pk_answerid": null,
-        "fk_questionid": "213",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "a"
-      },
-      {
-        "pk_answerid": null,
-        "fk_questionid": "213",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "b"
-      },
-      {
-        "pk_answerid": null,
-        "fk_questionid": "213",
-        "fk_SchoolId": null,
-        "fk_SubjectID": null,
-        "correct_answer": "N",
-        "answer": "c"
+        "answer": "North India"
       }
     ]
   }

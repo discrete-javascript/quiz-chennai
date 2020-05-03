@@ -1,8 +1,8 @@
-import React, { Component, Fragment } from "react";
-import styled from "styled-components";
+import React, { Component, Fragment } from 'react';
+import styled from 'styled-components';
 
-const LEFT_PAGE = "LEFT";
-const RIGHT_PAGE = "RIGHT";
+const LEFT_PAGE = 'LEFT';
+const RIGHT_PAGE = 'RIGHT';
 
 const range = (from, to, step = 1) => {
   let i = from;
@@ -21,11 +21,11 @@ class Pagination extends Component {
     super(props);
     const { totalRecords = null, pageLimit = 30, pageNeighbours = 0 } = props;
 
-    this.pageLimit = typeof pageLimit === "number" ? pageLimit : 30;
-    this.totalRecords = typeof totalRecords === "number" ? totalRecords : 0;
+    this.pageLimit = typeof pageLimit === 'number' ? pageLimit : 30;
+    this.totalRecords = typeof totalRecords === 'number' ? totalRecords : 0;
 
     this.pageNeighbours =
-      typeof pageNeighbours === "number"
+      typeof pageNeighbours === 'number'
         ? Math.max(0, Math.min(pageNeighbours, 2))
         : 0;
 
@@ -123,7 +123,7 @@ class Pagination extends Component {
 
     return (
       <Fragment>
-        <nav aria-label="Countries Pagination">
+        <nav aria-label="Pagination">
           <ul className="pagination">
             {pages.map((page, index) => {
               if (page === LEFT_PAGE)
@@ -131,7 +131,6 @@ class Pagination extends Component {
                   <li key={index} className="page-item">
                     <button
                       className="page-link"
-                      href="#"
                       aria-label="Previous"
                       onClick={this.handleMoveLeft}
                     >
@@ -146,7 +145,6 @@ class Pagination extends Component {
                   <li key={index} className="page-item">
                     <button
                       className="page-link"
-                      href="#"
                       aria-label="Next"
                       onClick={this.handleMoveRight}
                     >
@@ -160,12 +158,11 @@ class Pagination extends Component {
                 <li
                   key={index}
                   className={`page-item${
-                    currentPage === page ? " active" : ""
+                    currentPage === page ? ' active' : ''
                   }`}
                 >
                   <button
                     className="page-link"
-                    href="#"
                     onClick={(e) => this.handleClick(page, e)}
                   >
                     {page}

@@ -43,7 +43,7 @@ class App extends React.PureComponent {
 
   quizCards = () => {
     return this.state.currentQuestion.map((i, index) => (
-      <Fragment>
+      <Fragment key={index}>
         <QuizCard
           questionSerialNo={++index}
           question={i.question.questionName}
