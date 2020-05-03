@@ -1,9 +1,15 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import { getQuizQA } from "./store/actions/quizQA";
 import Pagination from "./components/pagination/pagination";
 import QuizCard from "./components/quiz-card/quiz.card";
+import Loader from "./components/base/loader";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import Typography from "@material-ui/core/Typography";
+import Container from "@material-ui/core/Container";
+import Grid from "@material-ui/core/Grid";
+import ButtonGroup from "./components/base/buttongroup";
 
 class App extends React.PureComponent {
   state = {
@@ -37,11 +43,14 @@ class App extends React.PureComponent {
 
   quizCards = () => {
     return this.state.currentQuestion.map((i, index) => (
-      <QuizCard
-        questionSerialNo={++index}
-        question={i.question.questionName}
-        answers={i.answers}
-      />
+      <Fragment>
+        <QuizCard
+          questionSerialNo={++index}
+          question={i.question.questionName}
+          answers={i.answers}
+        />
+        <ButtonGroup />
+      </Fragment>
     ));
   };
 
@@ -49,19 +58,38 @@ class App extends React.PureComponent {
     const { quizQA } = this.state;
 
     if (!quizQA.length) {
-      return null;
+      return <Loader />;
     }
     return (
       <div>
-        {this.quizCards()}
-        <div className="d-flex flex-row py-4 align-items-center">
-          <Pagination
-            totalRecords={quizQA.length}
-            pageLimit={1}
-            pageNeighbours={1}
-            onPageChanged={this.onPageChanged}
-          />
-        </div>
+        <React.Fragment>
+          <CssBaseline />
+          <Container maxWidth="sm">
+            <Grid
+              container
+              direction="column"
+              justify="flex-start"
+              alignItems="center"
+            >
+              <Grid item xs={12}>
+                <Typography variant="h5" gutterBottom>
+                  Quiz
+                </Typography>
+              </Grid>
+              <Grid item xs={12}>
+                {this.quizCards()}
+              </Grid>
+              <Grid item xs={12}>
+                <Pagination
+                  totalRecords={quizQA.length}
+                  pageLimit={1}
+                  pageNeighbours={1}
+                  onPageChanged={this.onPageChanged}
+                />
+              </Grid>
+            </Grid>
+          </Container>
+        </React.Fragment>
       </div>
     );
   }

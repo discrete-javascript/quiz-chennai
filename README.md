@@ -11,6 +11,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 7. Lodash
 8. Axios
 
+## How to use?
+
+1. it's suggested to use `yarn` if you don't have `yarn` in your CLI
+   type `npm i yarn -g`
+2. Type `yarn install` to install all the dependencies
+3. `yarn start` to start the application
+
 ## Available Scripts
 
 In the project directory, you can run:

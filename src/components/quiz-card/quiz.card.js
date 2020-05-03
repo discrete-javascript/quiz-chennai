@@ -1,46 +1,54 @@
-import React, { PureComponent } from "react";
-import {
-  Card,
-  Button,
-  CardHeader,
-  CardFooter,
-  CardBody,
-  CardTitle,
-  CardText,
-} from "reactstrap";
-import { FormGroup, Label, Input } from "reactstrap";
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import Radio from "@material-ui/core/Radio";
+import RadioGroup from "@material-ui/core/RadioGroup";
+import FormControlLabel from "@material-ui/core/FormControlLabel";
+import FormControl from "@material-ui/core/FormControl";
+import FormLabel from "@material-ui/core/FormLabel";
+import Card from "@material-ui/core/Card";
+import CardHeader from "@material-ui/core/CardHeader";
+import CardContent from "@material-ui/core/CardContent";
+import { red } from "@material-ui/core/colors";
 
-class QuizCard extends PureComponent {
-  renderAnswers = () => {
-    const { answers } = this.props;
-    return (
-      <FormGroup tag="fieldset">
-        <legend>Answers</legend>
-        {!!answers.length &&
-          answers.map((i) => (
-            <FormGroup check>
-              <Label check>
-                <Input type="radio" name="radio1" /> {i.answer}
-              </Label>
-            </FormGroup>
-          ))}
-      </FormGroup>
-    );
+const useStyles = makeStyles((theme) => ({
+  root: {
+    width: "500px",
+    maxWidth: 500,
+  },
+}));
+
+export default function RecipeReviewCard(props) {
+  const classes = useStyles();
+  const { questionSerialNo, question, answers } = props;
+  const [value, setValue] = React.useState("female");
+
+  const handleChange = (event) => {
+    setValue(event.target.value);
   };
-  render() {
-    const { questionSerialNo, question, answers } = this.props;
-    return (
-      <Card>
-        {/* <CardHeader>Question number: {questionSerialNo}</CardHeader> */}
-        <CardBody>
-          <CardTitle>{question}</CardTitle>
-          <CardText>{this.renderAnswers()}</CardText>
-          {/* <Button>Go somewhere</Button> */}
-        </CardBody>
-        {/* <CardFooter>Footer</CardFooter> */}
-      </Card>
-    );
-  }
-}
 
-export default QuizCard;
+  return (
+    <Card className={classes.root}>
+      <CardHeader title={"Question"} subheader={question} />
+      <CardContent>
+        <FormControl component="fieldset">
+          <FormLabel component="legend">Answers</FormLabel>
+          <RadioGroup
+            aria-label="Answers"
+            name="Answers"
+            value={value}
+            onChange={handleChange}
+          >
+            {!!answers.length &&
+              answers.map((i) => (
+                <FormControlLabel
+                  value={i.answer}
+                  control={<Radio />}
+                  label={i.answer}
+                />
+              ))}
+          </RadioGroup>
+        </FormControl>
+      </CardContent>
+    </Card>
+  );
+}

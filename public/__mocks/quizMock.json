@@ -1,0 +1,1698 @@
+[
+  {
+    "question": {
+      "pk_questionid": "24",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "How do you handle error in JSP?"
+    },
+    "answers": []
+  },
+  {
+    "question": {
+      "pk_questionid": "26",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "How many implicit objects are in JSP"
+    },
+    "answers": []
+  },
+  {
+    "question": {
+      "pk_questionid": "27",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "How do you handle error in JSP?"
+    },
+    "answers": []
+  },
+  {
+    "question": {
+      "pk_questionid": "81",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "How to declare thread in JSP"
+    },
+    "answers": []
+  },
+  {
+    "question": {
+      "pk_questionid": "82",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "What is the difference between static include and "
+    },
+    "answers": []
+  },
+  {
+    "question": {
+      "pk_questionid": "83",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "What is the difference between response.sendRedire"
+    },
+    "answers": []
+  },
+  {
+    "question": {
+      "pk_questionid": "133",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "What is HashCode?"
+    },
+    "answers": []
+  },
+  {
+    "question": {
+      "pk_questionid": "155",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "மிக அதிக நீளமான கடற்கரையைக் கொண்ட தென் மாநிலம் எது"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "155",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "தமிழ்நாடு"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "155",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "ஆந்திரப்பிரதேசம்"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "155",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "ஆந்திரப்பிரதேசம்"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "156",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "தேசிய வருமானத்தில் முக்கிய பங்கு வகிப்பது"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "156",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "தொலைக்காட்சி"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "156",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "தொழிற்சாலை"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "156",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "சுற்றுலா"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "157",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "தேசிய வருமானத்தில் முக்கிய பங்கு வகிப்பது"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "157",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "வேளாண்மை"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "157",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "தொலைக்காட்சி"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "157",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "தொழிற்சாலை"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "158",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "தொழிற்சாலை வருமானத்தில் முக்கிய பங்கு வகிப்பது"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "158",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "வேளாண்மை"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "158",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "தொலைக்காட்சி"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "158",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "தொழிற்சாலை"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "159",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "புகையிலையில் உள்ள நச்சுப்பொருள் எது?"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "159",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "ஆண்டி க்நோக்"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "159",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "அகாரிஸ்"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "159",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "நிக்கோட்டின்"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "160",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "மிதிவண்டியை ( Bicycle ) கண்டிபிடித்தவர்?"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "160",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "ஆண்டி க்நோக்"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "160",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "கோல்பே"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "160",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "கிர்க்பேட்ரிக் மேக்மில்லன்"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "161",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "ரிட்பெர்க் மாறிலியின் மதிப்பு என்ன?"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "161",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "1.074 X 107 m-1"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "161",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "1.084 X 107 m-1"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "161",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "1.094 X 107 m-1 "
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "162",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "1+2"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "162",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "5"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "162",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "5"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "162",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "5"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "163",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "\" ATM \" என்பதன் விரிவாக்கம்?"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "163",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": " Automated Teller Machine"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "163",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Automatic Telling Machine"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "163",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": " Automated Telling Machine"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "164",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "\" EXPORT \" என்பதன் தமிழ்ச்சொல்?"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "164",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "பண்டமாற்று"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "164",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "இறக்குமதி"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "164",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "வியாபாரம்"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "165",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "\" FIRST RANK \" என்பதன் தமிழ்ச்சொல்?"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "165",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": " முதல் வகுப்பு"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "165",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "முதல் தரம்"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "165",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "முதல் ரேங்க்"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "166",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "\" PARLIAMENT \" என்பதன் தமிழ்ச்சொல்?"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "166",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "மக்களவை"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "166",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "மாநிலங்களவை"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "166",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "நாடாளுமன்றம்"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "167",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "(a − b)2 = "
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "167",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "a2  + 2ab -  b2"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "167",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "a2  + 2ab + b2"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "167",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "a2 − 2ab + b2"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "170",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "தாவரங்கள் புதிய சூழலில் வளர.... தேவைப்படுகிறது"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "170",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "உணவு"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "170",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "காற்று"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "170",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "இனப்பெருக்கம்"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "183",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "Which of the following is a fundamental quantity"
+    },
+    "answers": []
+  },
+  {
+    "question": {
+      "pk_questionid": "184",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "Which of the following is a fundamental quantity"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "184",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "speed"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "184",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "volume"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "184",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "density"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "185",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "Which of the following is a derived quantity"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "185",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "temperature"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "185",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Time"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "185",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "Speed"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "186",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "SI quantity of density is"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "186",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "kg/litres"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "186",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "g/cc"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "186",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "msub3"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "187",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "A solid of density is 0.92g/cc"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "187",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "cannot say"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "187",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "sinks in water"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "187",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "sinks in kerosene"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "188",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "Two spheres have equal mass and volume in the ratio 2:1. the ratio of their density is"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "188",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "4:1"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "188",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "1:4"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "188",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "1:2"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "190",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "SI unit for speed is"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "190",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "km/s"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "190",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "km/h"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "190",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "m "
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "191",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "When a body is thrown vertically upwards its velocity will"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "191",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Not change"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "191",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Decrease"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "191",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Increase and decrease"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "192",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "If a body moves 20m in 1minute,15m in 2minute,it is Moving with"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "192",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Uniform speed"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "192",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Deceleration"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "192",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "Variable speed"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "193",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "A particle is moving in a circular path of radius r. The displacement after half a circle would be"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "193",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Zero "
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "193",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "r "
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "193",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "2r"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "194",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "Stability of an object can be increased by"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "194",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "Raising the position of its centre of mass"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "194",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Lowering the position of its centre of mass"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "194",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Increasing the area of its base"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "195",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "Stability of an object can be increased by"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "195",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Decreasing the area of its base"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "195",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "Raising the position of its centre of mass"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "195",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Lowering the position of its centre of mass"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "196",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "Wheat,rice and maize are.....................pollinated flowers"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "196",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "Wind"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "197",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "Spirogyra reproduce asexually by"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "197",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Budding"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "198",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "Sunflower is a"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "198",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "Mesophyte"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "199",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "Lotus, water lily and water hyacinth are examples of plants that grow in................ Water habitats"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "199",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "Fresh"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "200",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "The androecium is the................ reproductive part of the flower"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "200",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "Male"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "202",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "சுற்றுச் சூழல்  என்பது "
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "202",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "பறவைகள் மட்டும்"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "202",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "மனிதர் மட்டும் "
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "202",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "நம்மைச் சுற்றியுள்ள அனைத்தும் "
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "203",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "சுற்றுச்சூழலின் வகைகள் "
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "203",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "இயற்பியல் சுற்றுச் சூழல் உயிரியல் சுற்றுச் சூழல் வேதியியல் சுற்றுச் சூழல்"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "203",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "இயற்பியல் சுற்றுச் சூழல் உயிரியல் சுற்றுச் சூழல்"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "203",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "இயற்பியல் சுற்றுச் சூழல் வேதியியல் சுற்றுச் சூழல்"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "204",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "இயற்பியல் சுற்றுச் சூழலில் அடங்குபவை "
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "204",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "நிலம், நீர் ,காற்று"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "204",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "நிலம்  மட்டும் "
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "204",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": " நீர்   மட்டும் "
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "205",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "பண்ணை வளர்ப்பு என்பது "
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "205",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "தாவரங்கள் விலங்குகள் வளர்க்கும் முறை "
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "205",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "மேற்கண்ட  மூன்றும் தவறு "
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "205",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "தாவரங்கள்  வளர்க்கும் முறை"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "206",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "இந்தியாவில் உள்ள கால்நடை இனங்களின் எண்ணிக்கை "
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "206",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "27"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "206",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "30"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "206",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "50"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "207",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "வெண்மைப் புரட்சியின் தந்தை "
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "207",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "டாக்டர்சுவாமிநாதன் "
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "207",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "டாக்டர் அப்துல் கலாம்  டாக்டர் "
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "207",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "டாக்டர் மயில்ச்சாமி அண்ணாத்துரை "
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "208",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "ஸ்ருதி எருமை மாட்டினங்கள் காணப்படும் மாநிலங்கள் "
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "208",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": " குஜராத்,பஞ்சாப், அரியானா "
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "208",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "இராஜஸ்தான்,  பஞ்சாப், அரியானா "
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "208",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": " பஞ்சாப், அரியானா "
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "209",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "Shahnameh was written by"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "209",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Kalhan"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "209",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "Mohammed jayasi"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "210",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "King Harsha died in the year"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "210",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "476c.e"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "210",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "647c.e"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "211",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "The Vijayanagar Kingdom was founded in the"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "211",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "South India"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "211",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "West India"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "212",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "how many alphabets are vowels?"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "212",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "Y",
+        "answer": "5"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "212",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "3"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "212",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "2"
+      }
+    ]
+  },
+  {
+    "question": {
+      "pk_questionid": "213",
+      "fk_SchoolId": "",
+      "fk_SubjectId": "",
+      "question_type": "",
+      "description": "",
+      "createdby": "",
+      "lastupdatedby": "",
+      "lastupdateed": "",
+      "status": "",
+      "questionName": "who has written thirukkural?"
+    },
+    "answers": [
+      {
+        "pk_answerid": null,
+        "fk_questionid": "213",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "a"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "213",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "b"
+      },
+      {
+        "pk_answerid": null,
+        "fk_questionid": "213",
+        "fk_SchoolId": null,
+        "fk_SubjectID": null,
+        "correct_answer": "N",
+        "answer": "c"
+      }
+    ]
+  }
+]
