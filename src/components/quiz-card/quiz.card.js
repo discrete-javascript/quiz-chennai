@@ -1,7 +1,5 @@
 import React from 'react';
-import { connect, useDispatch } from 'react-redux';
-import { bindActionCreators } from 'redux';
-// import { useSelector, useDispatch } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { makeStyles } from '@material-ui/core/styles';
 import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
@@ -25,15 +23,23 @@ function QuizCard(props) {
   const classes = useStyles();
   const { question, answers } = props;
 
-  const [value, setValue] = React.useState('');
-
   //useDispatch is hooks specifically from react-redux
 
   const dispatch = useDispatch();
+  const answerSelected = useSelector((state) => state.quizReducer.userAnswers);
 
   const handleChange = (event, questionID) => {
     dispatch(validateAnswer(questionID, event.target.value));
-    setValue(event.target.value);
+  };
+
+  const isChecked = (questionID, answerID) => {
+    return Object.keys(answerSelected).length > 0
+      ? answerSelected[questionID]
+        ? answerSelected[questionID][answerID]
+          ? answerSelected[questionID][answerID]
+          : false
+        : false
+      : false;
   };
 
   return (
@@ -42,14 +48,19 @@ function QuizCard(props) {
       <CardContent>
         <FormControl component="fieldset">
           <FormLabel component="legend">Answers</FormLabel>
-          <RadioGroup aria-label="Answers" name="Answers" value={value}>
-            {!!answers.length &&
-              answers.map((i) => (
+          {!!answers.length &&
+            answers.map((i) => (
+              <RadioGroup
+                aria-label="Answers"
+                name="Answers"
+                value={i.pk_answerid}
+                key={i.pk_answerid}
+              >
                 <FormControlLabel
                   value={i.pk_answerid}
                   control={
                     <Radio
-                      checked={value === i.pk_answerid}
+                      checked={isChecked(i.fk_questionid, i.pk_answerid)}
                       onChange={(e) => handleChange(e, i.fk_questionid)}
                     />
                   }
@@ -57,20 +68,12 @@ function QuizCard(props) {
                   data-qid={i.fk_questionid}
                   key={i.pk_answerid}
                 />
-              ))}
-          </RadioGroup>
+              </RadioGroup>
+            ))}
         </FormControl>
       </CardContent>
     </Card>
   );
 }
 
-const mapDispatchToProps = (dispatch) =>
-  bindActionCreators(
-    {
-      validateAnswer,
-    },
-    dispatch
-  );
-
-export default connect(null, mapDispatchToProps)(QuizCard);
+export default QuizCard;

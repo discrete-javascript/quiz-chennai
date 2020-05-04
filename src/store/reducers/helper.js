@@ -13,21 +13,3 @@ export const getAnswers = (QAs) =>
     }),
     0
   );
-
-export const validateAnswer = (answers, selectedValue) => {
-  console.log(answers);
-  const getValidatedAnswer = answers[selectedValue.question];
-  if (getValidatedAnswer.length === 1) {
-    return {
-      score: getValidatedAnswer.includes(selectedValue.answer),
-    };
-  }
-  return {
-    score: {
-      [selectedValue.question]: getValidatedAnswer.includes(
-        selectedValue.answer
-      ),
-    },
-  };
-  console.log(getValidatedAnswer);
-};

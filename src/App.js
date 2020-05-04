@@ -1,15 +1,15 @@
-import React, { Fragment } from "react";
-import { connect } from "react-redux";
-import { bindActionCreators } from "redux";
-import { getQuizQA } from "./store/actions/quizQA";
-import Pagination from "./components/pagination/pagination";
-import QuizCard from "./components/quiz-card/quiz.card";
-import Loader from "./components/base/loader";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import Typography from "@material-ui/core/Typography";
-import Container from "@material-ui/core/Container";
-import Grid from "@material-ui/core/Grid";
-import ButtonGroup from "./components/base/buttongroup";
+import React, { Fragment } from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { getQuizQA } from './store/actions/quizQA';
+import Pagination from './components/pagination/pagination';
+import QuizCard from './components/quiz-card/quiz.card';
+import Loader from './components/base/loader';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
+import Grid from '@material-ui/core/Grid';
+import ButtonGroup from './components/base/buttongroup';
 
 class App extends React.PureComponent {
   state = {

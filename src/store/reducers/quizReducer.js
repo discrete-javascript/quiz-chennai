@@ -1,12 +1,13 @@
 import { handleActions } from 'redux-actions';
 import { difference } from 'lodash';
 import { setQuizQA, calculatePartialScore } from '../actions/quizQA';
-import { getAnswers, validateAnswer } from './helper';
+import { getAnswers } from './helper';
 
 const defaultState = {
   quizQA: [],
   answers: {},
-  score: [],
+  partialSelection: {},
+  userAnswers: {},
 };
 
 const reducer = handleActions(
@@ -30,17 +31,29 @@ const reducer = handleActions(
       if (getValidatedAnswer.length === 1) {
         return {
           ...state,
-          score: {
-            ...state.score,
+          partialSelection: {
+            ...state.partialSelection,
             [question]: getValidatedAnswer.includes(answer),
+          },
+          userAnswers: {
+            ...state.userAnswers,
+            [question]: {
+              [answer]: true,
+            },
           },
         };
       }
       return {
         ...state,
-        score: {
-          ...state.score,
+        partialSelection: {
+          ...state.partialSelection,
           [question]: difference([answer], getValidatedAnswer).length === 0,
+        },
+        userAnswers: {
+          ...state.userAnswers,
+          [question]: {
+            [answer]: true,
+          },
         },
       };
     },
