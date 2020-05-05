@@ -1,14 +1,10 @@
-import { combineEpics } from "redux-observable";
-import { catchError } from "rxjs/operators";
-import quizEpics from "./quizEpics";
-import validateAnswerEpic from "./validateAnswerEpic";
-
-const epics = {
-  quizEpics,
-};
+import { combineEpics } from 'redux-observable';
+import { catchError } from 'rxjs/operators';
+import quizEpic from './quizEpic';
+import validateAnswerEpic from './validateAnswerEpic';
 
 const rootEpic = (action$, store$, dependencies) =>
-  combineEpics(quizEpics, validateAnswerEpic)(
+  combineEpics(quizEpic, validateAnswerEpic)(
     action$,
     store$,
     dependencies

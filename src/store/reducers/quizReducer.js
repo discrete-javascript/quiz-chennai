@@ -1,6 +1,10 @@
 import { handleActions } from 'redux-actions';
 import { difference } from 'lodash';
-import { setQuizQA, calculatePartialScore } from '../actions/quizQA';
+import {
+  setQuizQA,
+  calculatePartialScore,
+  collectUserAnswers,
+} from '../actions/quizQA';
 import { getAnswers } from './helper';
 
 const defaultState = {
@@ -35,12 +39,6 @@ const reducer = handleActions(
             ...state.partialSelection,
             [question]: getValidatedAnswer.includes(answer),
           },
-          userAnswers: {
-            ...state.userAnswers,
-            [question]: {
-              [answer]: true,
-            },
-          },
         };
       }
       return {
@@ -49,6 +47,15 @@ const reducer = handleActions(
           ...state.partialSelection,
           [question]: difference([answer], getValidatedAnswer).length === 0,
         },
+      };
+    },
+    [collectUserAnswers]: (state, action) => {
+      const { question, answer } = action.payload;
+      // Here we are collecting the answer if user selects
+      // In future we have to create a new state with the same state name and all the question id
+      // and add the state accordingly
+      return {
+        ...state,
         userAnswers: {
           ...state.userAnswers,
           [question]: {

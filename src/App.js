@@ -19,6 +19,8 @@ class App extends React.PureComponent {
     totalPages: null,
   };
 
+  paginationRef = React.createRef();
+
   componentDidMount() {
     this.props.getQuizQA();
   }
@@ -44,12 +46,12 @@ class App extends React.PureComponent {
   quizCards = () => {
     return this.state.currentQuestion.map((i, index) => (
       <Fragment key={index}>
-        <QuizCard
-          questionSerialNo={++index}
-          question={i.question.questionName}
-          answers={i.answers}
+        <QuizCard question={i.question.questionName} answers={i.answers} />
+        <ButtonGroup
+          paginationRef={this.paginationRef}
+          currentPage={this.state.currentPage}
+          pageLength={this.props.quizQA.length}
         />
-        <ButtonGroup />
       </Fragment>
     ));
   };
@@ -83,8 +85,9 @@ class App extends React.PureComponent {
                 <Pagination
                   totalRecords={quizQA.length}
                   pageLimit={1}
-                  pageNeighbours={1}
+                  pageNeighbours={5}
                   onPageChanged={this.onPageChanged}
+                  ref={this.paginationRef}
                 />
               </Grid>
             </Grid>

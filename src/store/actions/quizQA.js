@@ -4,6 +4,7 @@ import {
   SET_QUIZ_QA,
   VALIDATE_ANSWER,
   CALCULATE_PARTIAL_SCORE,
+  COLLECT_USER_ANSWERS,
 } from './constants';
 
 export const getQuizQA = createAction(GET_QUIZ_QA);
@@ -18,3 +19,4 @@ export const validateAnswer = createAction(
 );
 
 export const calculatePartialScore = createAction(CALCULATE_PARTIAL_SCORE);
+export const collectUserAnswers = createAction(COLLECT_USER_ANSWERS);
