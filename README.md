@@ -4,12 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. React
 2. Redux
-3. RxJS
-4. Redux Observables
-5. Styled Components
-6. Redux Actions
-7. Lodash
-8. Axios
+3. Material Ui framework 
+4. RxJS
+5. Redux Observables
+6. Styled Components
+7. Redux Actions
+8. Lodash
+9. Axios
 
 ## How to use?
 
