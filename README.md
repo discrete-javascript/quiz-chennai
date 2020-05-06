@@ -3,13 +3,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Libraries Used
 
 1. React
-2. Redux
-3. RxJS
-4. Redux Observables
-5. Styled Components
-6. Redux Actions
-7. Lodash
-8. Axios
+1. Redux
+1. Material Ui framework 
+1. RxJS
+1. Redux Persist
+1. Redux Observables
+1. Styled Components
+1. Redux Actions
+1. Lodash
+1. Axios
+
 
 ## How to use?
 
