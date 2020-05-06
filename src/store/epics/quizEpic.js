@@ -11,7 +11,9 @@ const quizEpic = (action$) =>
     ofType(GET_QUIZ_QA),
     switchMap((action) =>
       ajax
-        .getJSON('/__mocks/quizMock.json')
+        .getJSON(
+          'https://spring-jdbc.cfapps.io/findAllQuestionwithAnswerforAll'
+        )
         .pipe(map((response) => setQuizQA(response)))
     )
   );

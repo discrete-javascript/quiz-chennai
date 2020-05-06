@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import { makeStyles } from '@material-ui/core/styles';
+// import history from '../../utils/history';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -55,6 +57,11 @@ export default function BasicButtonGroup(props) {
         <Button disabled={disabledNext} onClick={handleNext}>
           Next
         </Button>
+        {props.currentPage === props.pageLength && (
+          <Button color="primary" component={Link} to="/score-card">
+            Finish
+          </Button>
+        )}
       </ButtonGroup>
     </div>
   );

@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
+import { Switch, Route, Link } from 'react-router-dom';
 import { getQuizQA } from './store/actions/quizQA';
 import Pagination from './components/pagination/pagination';
 import QuizCard from './components/quiz-card/quiz.card';
@@ -10,6 +11,8 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import ButtonGroup from './components/base/buttongroup';
+import ScoreCard from './components/score-card/score.card';
+import history from './utils/history';
 
 class App extends React.PureComponent {
   state = {
@@ -56,6 +59,23 @@ class App extends React.PureComponent {
     ));
   };
 
+  renderQuizComponent = () => (
+    <React.Fragment>
+      <Grid item xs={12}>
+        {this.quizCards()}
+      </Grid>
+      <Grid item xs={12}>
+        <Pagination
+          totalRecords={this.state.quizQA.length}
+          pageLimit={1}
+          pageNeighbours={5}
+          onPageChanged={this.onPageChanged}
+          ref={this.paginationRef}
+        />
+      </Grid>
+    </React.Fragment>
+  );
+
   render() {
     const { quizQA } = this.state;
 
@@ -78,18 +98,12 @@ class App extends React.PureComponent {
                   Quiz
                 </Typography>
               </Grid>
-              <Grid item xs={12}>
-                {this.quizCards()}
-              </Grid>
-              <Grid item xs={12}>
-                <Pagination
-                  totalRecords={quizQA.length}
-                  pageLimit={1}
-                  pageNeighbours={5}
-                  onPageChanged={this.onPageChanged}
-                  ref={this.paginationRef}
-                />
-              </Grid>
+              <Route exact path="/mobile/quiz" history={history}>
+                {this.renderQuizComponent()}
+              </Route>
+              <Route path="/score-card">
+                <ScoreCard />
+              </Route>
             </Grid>
           </Container>
         </React.Fragment>
