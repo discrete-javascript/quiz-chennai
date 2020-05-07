@@ -6,17 +6,18 @@ import { PersistGate } from 'redux-persist/integration/react';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { store, persistor } from './store';
+import store from './store';
+// import { store, persistor } from './store';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 ReactDOM.render(
   <Provider store={store}>
-    <PersistGate loading={null} persistor={persistor}>
-      <Router>
-        <App />
-      </Router>
-    </PersistGate>
+    {/* <PersistGate loading={null} persistor={persistor}> */}
+    <Router>
+      <App />
+    </Router>
+    {/* </PersistGate> */}
   </Provider>,
   document.getElementById('root')
 );
