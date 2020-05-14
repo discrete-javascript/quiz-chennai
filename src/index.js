@@ -9,11 +9,12 @@ import * as serviceWorker from './serviceWorker';
 import { store, persistor } from './store';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import history from './utils/history';
 
 ReactDOM.render(
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
-      <Router>
+      <Router history={history}>
         <App />
       </Router>
     </PersistGate>

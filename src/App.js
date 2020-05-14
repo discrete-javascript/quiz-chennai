@@ -13,6 +13,8 @@ import Grid from '@material-ui/core/Grid';
 import ButtonGroup from './components/base/buttongroup';
 import ScoreCard from './components/score-card/score.card';
 import history from './utils/history';
+import SignIn from './components/sign-in/sign.in';
+import SignUp from './components/sign-up/sign.up';
 
 class App extends React.PureComponent {
   state = {
@@ -62,6 +64,11 @@ class App extends React.PureComponent {
   renderQuizComponent = () => (
     <React.Fragment>
       <Grid item xs={12}>
+        <Typography variant="h5" gutterBottom>
+          Quiz
+        </Typography>
+      </Grid>
+      <Grid item xs={12}>
         {this.quizCards()}
       </Grid>
       <Grid item xs={12}>
@@ -93,17 +100,27 @@ class App extends React.PureComponent {
               justify="flex-start"
               alignItems="center"
             >
-              <Grid item xs={12}>
-                <Typography variant="h5" gutterBottom>
-                  Quiz
-                </Typography>
-              </Grid>
-              <Route exact path="/mobile/quiz" history={history}>
-                {this.renderQuizComponent()}
-              </Route>
-              <Route path="/score-card">
-                <ScoreCard />
-              </Route>
+              <Switch>
+                <Route
+                  exact
+                  path={['/mobile/quiz', '/sign-in']}
+                  history={history}
+                >
+                  <SignIn />
+                </Route>
+                <Route exact path="/sign-up">
+                  <SignUp />
+                </Route>
+                <Route
+                  exact
+                  path="/questions"
+                  history={history}
+                  render={() => this.renderQuizComponent()}
+                ></Route>
+                <Route exact path="/score-card">
+                  <ScoreCard />
+                </Route>
+              </Switch>
             </Grid>
           </Container>
         </React.Fragment>
