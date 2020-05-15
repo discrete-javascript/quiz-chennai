@@ -17,6 +17,7 @@ import Copyright from '../base/copyright';
 import regex from '../../utils/regex';
 import { useDispatch, useSelector } from 'react-redux';
 import { handleSignin } from '../../store/actions/authActions';
+import { persistor } from '../../store';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -71,6 +72,10 @@ export default function SignIn() {
   const dispatch = useDispatch();
 
   const authReducer = useSelector((state) => state.authReducer);
+
+  if (authReducer.user.length > 0) {
+    persistor.purge();
+  }
 
   // useEffect(() => {
   //   setRememberMe(!rememberMe);

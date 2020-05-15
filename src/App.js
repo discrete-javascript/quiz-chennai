@@ -101,11 +101,7 @@ class App extends React.PureComponent {
               alignItems="center"
             >
               <Switch>
-                <Route
-                  exact
-                  path={['/mobile/quiz', '/sign-in']}
-                  history={history}
-                >
+                <Route exact path={['/mobile/quiz', '/sign-in']}>
                   <SignIn />
                 </Route>
                 <Route exact path="/sign-up">
@@ -114,7 +110,6 @@ class App extends React.PureComponent {
                 <Route
                   exact
                   path="/questions"
-                  history={history}
                   render={() => this.renderQuizComponent()}
                 ></Route>
                 <Route exact path="/score-card">

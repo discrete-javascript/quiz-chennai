@@ -19,7 +19,7 @@ export const authError = createAction(AUTH_ERROR);
 export const handleSignin = createAction(HANDLE_SIGN_IN, (formData) => ({
   formData,
 }));
-export const loginSuccess = createAction(LOGIN_SUCCESS);
+export const loginSuccess = createAction(LOGIN_SUCCESS, (user) => ({ user }));
 export const loginFail = createAction(LOGIN_FAIL, (checkLogin) => ({
   checkLogin,
 }));
