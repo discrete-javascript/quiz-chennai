@@ -50,6 +50,5 @@
     "babel-plugin-root-import": "^6.5.0",
     "customize-cra": "^0.9.1",
     "react-app-rewired": "^2.1.6"
-  },
-  "homepage": "/mobile/quiz/"
+  }
 }
