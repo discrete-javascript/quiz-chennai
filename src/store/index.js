@@ -5,6 +5,7 @@ import storage from 'redux-persist/lib/storage';
 import autoMergeLevel2 from 'redux-persist/lib/stateReconciler/autoMergeLevel2'; // defaults to localStorage for web
 import rootReducer from './reducers';
 import rootEpic from './epics';
+import history from '../utils/history';
 
 const persistConfig = {
   key: 'primary',
@@ -15,7 +16,11 @@ const persistConfig = {
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
-const initialiseEpicMiddleware = createEpicMiddleware();
+const initialiseEpicMiddleware = createEpicMiddleware({
+  dependencies: {
+    history: history,
+  },
+});
 
 const storeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 

@@ -18,6 +18,7 @@ import regex from '../../utils/regex';
 import { useDispatch, useSelector } from 'react-redux';
 import { handleSignin } from '../../store/actions/authActions';
 import { persistor } from '../../store';
+import { resetStore } from '../../store/actions/resetStoreActions';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -73,9 +74,12 @@ export default function SignIn() {
 
   const authReducer = useSelector((state) => state.authReducer);
 
-  if (authReducer.user.length > 0) {
-    persistor.purge();
-  }
+  useEffect(() => {
+    if (authReducer.user.length > 0) {
+      dispatch(resetStore());
+      // persistor.purge();
+    }
+  }, [authReducer.user.length, dispatch]);
 
   // useEffect(() => {
   //   setRememberMe(!rememberMe);
@@ -88,6 +92,7 @@ export default function SignIn() {
       data[path].validations.isValid = true;
 
       // Email validation has to added after the proper API setup
+
       // if (path === 'email') {
       //   if (value.match(data.email.regex)) {
       //     data.email.validations.isValid = true;

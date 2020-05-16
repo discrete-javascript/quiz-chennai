@@ -1,14 +1,12 @@
 import { last } from 'rxjs/operators';
 import { ofType } from 'redux-observable';
 import { REDIRECT } from '../actions/constants';
-import history from '../../utils/history';
 
-const redirectEpic = (action$) =>
+const redirectEpic = (action$, state$, dependencies) =>
   action$.pipe(
     ofType(REDIRECT),
     last(({ payload }) => {
-      history.push(`${payload.redirectURL}`);
-      window.location.reload();
+      window.location.assign(`${payload.redirectURL}`);
     })
   );
 

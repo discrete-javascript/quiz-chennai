@@ -1,12 +1,15 @@
 import {
-  filter,
-  mapTo,
-  map,
+  // filter,
+  // mapTo,
+  // map,
+  // withLatestFrom,
+  // mergeMapTo,
   mergeMap,
-  withLatestFrom,
-  mergeMapTo,
 } from 'rxjs/operators';
-import { Observable, of } from 'rxjs';
+import {
+  // Observable,
+  of,
+} from 'rxjs';
 import { ofType } from 'redux-observable';
 import { VALIDATE_ANSWER } from '../actions/constants';
 import { calculatePartialScore, collectUserAnswers } from '../actions/quizQA';

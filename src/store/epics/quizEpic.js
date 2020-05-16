@@ -1,9 +1,13 @@
-import { filter, mapTo, map, mergeMap, switchMap } from 'rxjs/operators';
+import {
+  // filter, mapTo,
+  // mergeMap,
+  map,
+  switchMap,
+} from 'rxjs/operators';
 import { ajax } from 'rxjs/ajax';
 import { ofType } from 'redux-observable';
-import { Observable, from } from 'rxjs';
-import { getQuizQA, setQuizQA } from '../actions/quizQA';
-import ApiClient from '../services';
+// import { Observable, from } from 'rxjs';
+import { setQuizQA } from '../actions/quizQA';
 import { GET_QUIZ_QA } from '../actions/constants';
 
 const quizEpic = (action$) =>
